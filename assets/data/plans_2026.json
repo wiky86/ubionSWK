@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Bukchon Hanok Village",
+        "reason": "Experience traditional Korean houses.",
+        "lat": 37.582604,
+        "lng": 126.985018
+    },
+    {
+        "id": 2,
+        "name": "Lotte World Tower",
+        "reason": "Visit the highest observation deck.",
+        "lat": 37.512596,
+        "lng": 127.102522
+    }
+]

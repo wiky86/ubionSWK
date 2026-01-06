@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "N Seoul Tower",
+        "date": "2025-03-15",
+        "description": "Enjoyed the panoramic view of Seoul.",
+        "lat": 37.551169,
+        "lng": 126.988227,
+        "image": "/assets/photos/nseoultower.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Gyeongbokgung Palace",
+        "date": "2025-05-20",
+        "description": "Wore Hanbok and took great photos.",
+        "lat": 37.579617,
+        "lng": 126.977041,
+        "image": "/assets/photos/gyeongbokgung.jpg"
+    }
+]
