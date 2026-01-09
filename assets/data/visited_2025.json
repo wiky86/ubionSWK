@@ -1,20 +1,110 @@
 [
     {
         "id": 1,
-        "name": "N Seoul Tower",
-        "date": "2025-03-15",
-        "description": "Enjoyed the panoramic view of Seoul.",
-        "lat": 37.551169,
-        "lng": 126.988227,
-        "image": "/assets/photos/nseoultower.jpg"
+        "name": "1월 - 활동 없음",
+        "date": "2025-01",
+        "description": "정기 모임 없음",
+        "lat": null,
+        "lng": null,
+        "image": "/assets/photos/jan.jpg"
     },
     {
         "id": 2,
-        "name": "Gyeongbokgung Palace",
-        "date": "2025-05-20",
-        "description": "Wore Hanbok and took great photos.",
-        "lat": 37.579617,
-        "lng": 126.977041,
-        "image": "/assets/photos/gyeongbokgung.jpg"
+        "name": "2월 - 로드맵 구성",
+        "date": "2025-02",
+        "description": "장소: 구로구 유비온 디지털교육센터. 2025년 활동 계획 및 로드맵 수립.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "/assets/photos/feb.jpg"
+    },
+    {
+        "id": 3,
+        "name": "3월 - 박물관 관람",
+        "date": "2025-03",
+        "description": "장소: 용산구 국립중앙박물관. 우리나라의 역사와 문화를 탐방.",
+        "lat": 37.5239,
+        "lng": 126.9803,
+        "image": "/assets/photos/mar.jpg"
+    },
+    {
+        "id": 4,
+        "name": "4월 - 우천 취소",
+        "date": "2025-04",
+        "description": "비로 인한 활동 취소",
+        "lat": null,
+        "lng": null,
+        "image": "/assets/photos/apr.jpg"
+    },
+    {
+        "id": 5,
+        "name": "5월 - 국제정원박람회",
+        "date": "2025-05",
+        "description": "장소: 동작구 보라매공원. 아름다운 정원과 꽃 구경.",
+        "lat": 37.4925,
+        "lng": 126.9234,
+        "image": "/assets/photos/may.jpg"
+    },
+    {
+        "id": 6,
+        "name": "6월 - G타워 구경",
+        "date": "2025-06",
+        "description": "장소: 구로구 G타워. 넷마블 사옥 및 주변 탐방.",
+        "lat": 37.4833,
+        "lng": 126.8961,
+        "image": "/assets/photos/jun.jpg"
+    },
+    {
+        "id": 7,
+        "name": "7월 - 상반기 점검",
+        "date": "2025-07",
+        "description": "장소: 구로구 유비온 디지털교육센터. 상반기 활동 리뷰 및 하반기 계획.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "/assets/photos/jul.jpg"
+    },
+    {
+        "id": 8,
+        "name": "8월 - 문래동 나들이",
+        "date": "2025-08",
+        "description": "장소: 영등포구 문래동. 창작촌 골목 투어 및 맛집 탐방.",
+        "lat": 37.5156,
+        "lng": 126.8990,
+        "image": "/assets/photos/aug.jpg"
+    },
+    {
+        "id": 9,
+        "name": "9월 - 미술관 관람",
+        "date": "2025-09",
+        "description": "장소: 중구 서울시립미술관. 현대 미술 전시 관람.",
+        "lat": 37.5641,
+        "lng": 126.9738,
+        "image": "/assets/photos/sep.jpg"
+    },
+    {
+        "id": 10,
+        "name": "10월 - 야외 방탈출",
+        "date": "2025-10",
+        "description": "장소: 중구 덕수궁. 고궁에서 즐기는 야외 방탈출 게임.",
+        "lat": 37.5658,
+        "lng": 126.9751,
+        "image": "/assets/photos/oct.jpg"
+    },
+    {
+        "id": 11,
+        "name": "11월 - 여의도 나들이",
+        "date": "2025-11",
+        "description": "장소: 영등포구 여의도 공원. 공원 산책 및 IFC몰 방문.",
+        "lat": 37.5246,
+        "lng": 126.9194,
+        "image": "/assets/photos/nov.jpg"
+    },
+    {
+        "id": 12,
+        "name": "12월 - 송년회",
+        "date": "2025-12",
+        "description": "장소: 구로구 유비온 디지털교육센터. 2025년 활동 마무리 및 회식.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "/assets/photos/dec.jpg"
     }
 ]
