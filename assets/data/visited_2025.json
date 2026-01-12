@@ -1,15 +1,33 @@
 [
     {
         "id": 1,
+        "name": "일출 감상 (포항 호미곶)",
+        "date": "2025-01-01",
+        "description": "새해 첫 일출을 보며 2025년의 힘찬 시작을 다짐했습니다.",
+        "lat": 36.0765,
+        "lng": 129.5686,
+        "image": "https://placehold.co/600x400?text=Sunrise+2025"
+    },
+    {
+        "id": 2,
+        "name": "겨울 제주도 여행",
+        "date": "2025-02-14",
+        "description": "동백꽃이 만발한 제주도에서 힐링의 시간을 가졌습니다.",
+        "lat": 33.3617,
+        "lng": 126.5292,
+        "image": "https://placehold.co/600x400?text=Jeju+Island"
+    },
+    {
+        "id": 3,
         "name": "N서울타워",
         "date": "2025-03-15",
-        "description": "서울의 파노라마 뷰를 즐겼습니다.",
+        "description": "서울의 파노라마 뷰를 즐기며 봄을 맞이했습니다.",
         "lat": 37.551169,
         "lng": 126.988227,
         "image": "https://placehold.co/600x400?text=N+Seoul+Tower"
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "서초 문화예술공원",
         "date": "2025-04-05",
         "description": "멋진 메타세콰이어 길을 걸으며 휴식.",
@@ -18,7 +36,7 @@
         "image": "https://placehold.co/600x400?text=Seocho+Park"
     },
     {
-        "id": 3,
+        "id": 5,
         "name": "양재천 카페거리",
         "date": "2025-04-05",
         "description": "벚꽃 구경과 함께 카페에서 여유를 즐김.",
@@ -27,12 +45,75 @@
         "image": "https://placehold.co/600x400?text=Yangjaecheon"
     },
     {
-        "id": 4,
-        "name": "경복궁",
+        "id": 6,
+        "name": "경복궁 야간개장",
         "date": "2025-05-20",
-        "description": "한복을 입고 멋진 사진을 남겼습니다.",
+        "description": "한복을 입고 고즈넉한 궁궐의 밤을 거닐었습니다.",
         "lat": 37.579617,
         "lng": 126.977041,
         "image": "https://placehold.co/600x400?text=Gyeongbokgung"
+    },
+    {
+        "id": 7,
+        "name": "부산 해운대 요트투어",
+        "date": "2025-06-12",
+        "description": "시원한 바닷바람을 맞으며 이른 여름 휴가.",
+        "lat": 35.1587,
+        "lng": 129.1603,
+        "image": "https://placehold.co/600x400?text=Busan+Yacht"
+    },
+    {
+        "id": 8,
+        "name": "강릉 커피거리",
+        "date": "2025-07-25",
+        "description": "탁 트인 동해바다를 보며 커피 한 잔의 여유.",
+        "lat": 37.7716,
+        "lng": 128.9485,
+        "image": "https://placehold.co/600x400?text=Gangneung+Coffee"
+    },
+    {
+        "id": 9,
+        "name": "가평 글램핑",
+        "date": "2025-08-15",
+        "description": "자연 속에서 즐기는 바비큐 파티와 불멍.",
+        "lat": 37.8315,
+        "lng": 127.5097,
+        "image": "https://placehold.co/600x400?text=Glamping"
+    },
+    {
+        "id": 10,
+        "name": "설악산 단풍놀이",
+        "date": "2025-09-30",
+        "description": "붉게 물든 설악산의 절경을 감상했습니다.",
+        "lat": 38.1190,
+        "lng": 128.4655,
+        "image": "https://placehold.co/600x400?text=Seoraksan"
+    },
+    {
+        "id": 11,
+        "name": "경주 핑크뮬리",
+        "date": "2025-10-20",
+        "description": "첨성대 주변 핑크뮬리 군락지에서 인생샷.",
+        "lat": 35.8347,
+        "lng": 129.2190,
+        "image": "https://placehold.co/600x400?text=Gyeongju"
+    },
+    {
+        "id": 12,
+        "name": "전주 한옥마을 먹방투어",
+        "date": "2025-11-15",
+        "description": "맛있는 비빔밥과 길거리 음식을 섭렵했습니다.",
+        "lat": 35.8147,
+        "lng": 127.1526,
+        "image": "https://placehold.co/600x400?text=Jeonju"
+    },
+    {
+        "id": 13,
+        "name": "송년회 및 스키장",
+        "date": "2025-12-24",
+        "description": "하얀 설원 위에서 2025년을 마무리했습니다.",
+        "lat": 37.6433,
+        "lng": 128.6706,
+        "image": "https://placehold.co/600x400?text=Ski+Resort"
     }
 ]
