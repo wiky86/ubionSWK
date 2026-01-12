@@ -6,7 +6,7 @@ const Stats2025 = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
-        fetch('/assets/data/visited_2025.json')
+        fetch(`${import.meta.env.BASE_URL}assets/data/visited_2025.json`)
             .then(res => res.json())
             .then(data => setVisited(data))
             .catch(err => console.error("Failed to load visited data", err));
@@ -26,13 +26,13 @@ const Stats2025 = () => {
                             viewport={{ once: true }}
                             className="bg-slate-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
                         >
-                            <div 
+                            <div
                                 className="h-48 bg-slate-600 overflow-hidden cursor-pointer"
                                 onClick={() => setSelectedImage(place.image)}
                             >
                                 {/* Placeholder for image if not found, or actual image */}
                                 <img
-                                    src={place.image}
+                                    src={`${import.meta.env.BASE_URL}${place.image.startsWith('/') ? place.image.slice(1) : place.image}`}
                                     alt={place.name}
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                                     onError={(e) => { e.target.src = 'https://placehold.co/600x400?text=No+Image' }}
@@ -50,17 +50,17 @@ const Stats2025 = () => {
 
             {/* Image Modal */}
             {selectedImage && (
-                <div 
+                <div
                     className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4"
                     onClick={() => setSelectedImage(null)}
                 >
                     <div className="relative max-w-4xl max-h-[90vh] w-full">
-                        <img 
-                            src={selectedImage} 
-                            alt="Full Screen" 
+                        <img
+                            src={`${import.meta.env.BASE_URL}${selectedImage.startsWith('/') ? selectedImage.slice(1) : selectedImage}`}
+                            alt="Full Screen"
                             className="w-full h-full object-contain max-h-[90vh] rounded-lg shadow-2xl"
                         />
-                        <button 
+                        <button
                             className="absolute top-4 right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl hover:bg-gray-200 transition-colors"
                             onClick={(e) => {
                                 e.stopPropagation();

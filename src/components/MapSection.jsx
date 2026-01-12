@@ -21,11 +21,11 @@ const MapSection = () => {
     const [plans, setPlans] = useState([]);
 
     useEffect(() => {
-        fetch('/assets/data/visited_2025.json')
+        fetch(`${import.meta.env.BASE_URL}assets/data/visited_2025.json`)
             .then(res => res.json())
             .then(data => setVisited(data));
 
-        fetch('/assets/data/plans_2026.json')
+        fetch(`${import.meta.env.BASE_URL}assets/data/plans_2026.json`)
             .then(res => res.json())
             .then(data => setPlans(data));
     }, []);

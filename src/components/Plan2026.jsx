@@ -5,7 +5,7 @@ const Plan2026 = () => {
     const [plans, setPlans] = useState([]);
 
     useEffect(() => {
-        fetch('/assets/data/plans_2026.json')
+        fetch(`${import.meta.env.BASE_URL}assets/data/plans_2026.json`)
             .then(res => res.json())
             .then(data => setPlans(data))
             .catch(err => console.error("Failed to load plans", err));
