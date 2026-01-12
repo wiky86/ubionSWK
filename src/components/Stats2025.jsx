@@ -32,7 +32,7 @@ const Stats2025 = () => {
                             >
                                 {/* Placeholder for image if not found, or actual image */}
                                 <img
-                                    src={`${import.meta.env.BASE_URL}${place.image.startsWith('/') ? place.image.slice(1) : place.image}`}
+                                    src={place.image.startsWith('http') ? place.image : `${import.meta.env.BASE_URL}${place.image.startsWith('/') ? place.image.slice(1) : place.image}`}
                                     alt={place.name}
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                                     onError={(e) => { e.target.src = 'https://placehold.co/600x400?text=No+Image' }}
@@ -56,7 +56,7 @@ const Stats2025 = () => {
                 >
                     <div className="relative max-w-4xl max-h-[90vh] w-full">
                         <img
-                            src={`${import.meta.env.BASE_URL}${selectedImage.startsWith('/') ? selectedImage.slice(1) : selectedImage}`}
+                            src={selectedImage.startsWith('http') ? selectedImage : `${import.meta.env.BASE_URL}${selectedImage.startsWith('/') ? selectedImage.slice(1) : selectedImage}`}
                             alt="Full Screen"
                             className="w-full h-full object-contain max-h-[90vh] rounded-lg shadow-2xl"
                         />
