@@ -1,71 +1,71 @@
 [
     {
         "id": 1,
-        "name": "Bukchon Hanok Village",
-        "reason": "Experience traditional Korean culture and architecture.",
+        "name": "북촌 한옥마을",
+        "reason": "전통 한옥과 문화를 체험하기 위해.",
         "lat": 37.5826,
         "lng": 126.9830
     },
     {
         "id": 2,
-        "name": "Changdeokgung Palace",
-        "reason": "Explore the Secret Garden and UNESCO World Heritage site.",
+        "name": "창덕궁",
+        "reason": "유네스코 유산인 비원(후원)을 산책하기 위해.",
         "lat": 37.5794,
         "lng": 126.9910
     },
     {
         "id": 3,
-        "name": "Dongdaemun Design Plaza (DDP)",
-        "reason": "Admire futuristic architecture and design exhibitions.",
+        "name": "동대문 디자인 플라자 (DDP)",
+        "reason": "미래지향적인 건축물과 전시를 감상하기 위해.",
         "lat": 37.5665,
         "lng": 127.0090
     },
     {
         "id": 4,
-        "name": "Lotte World Tower",
-        "reason": "See the cityscape from Seoul Sky observation deck.",
+        "name": "롯데월드타워",
+        "reason": "서울 스카이 전망대에서 도시 야경을 보기 위해.",
         "lat": 37.5126,
         "lng": 127.1025
     },
     {
         "id": 5,
-        "name": "Starfield COEX Mall",
-        "reason": "Visit the famous Starfield Library and shop.",
+        "name": "스타필드 코엑스몰",
+        "reason": "별마당 도서관과 쇼핑을 즐기기 위해.",
         "lat": 37.5114,
         "lng": 127.0596
     },
     {
         "id": 6,
-        "name": "Insadong",
-        "reason": "Browse traditional crafts and enjoy tea houses.",
+        "name": "인사동",
+        "reason": "전통 공예품 구경과 찻집 탐방.",
         "lat": 37.5746,
         "lng": 126.9850
     },
     {
         "id": 7,
-        "name": "Myeongdong",
-        "reason": "Street food adventure and shopping spree.",
+        "name": "명동",
+        "reason": "길거리 음식 탐방과 쇼핑.",
         "lat": 37.5636,
         "lng": 126.9842
     },
     {
         "id": 8,
-        "name": "Yeouido Hangang Park",
-        "reason": "Picnic and cycling along the Han River.",
+        "name": "여의도 한강공원",
+        "reason": "한강변 피크닉과 자전거 라이딩.",
         "lat": 37.5284,
         "lng": 126.9328
     },
     {
         "id": 9,
-        "name": "National Museum of Korea",
-        "reason": "Deep dive into Korean history and art.",
+        "name": "국립중앙박물관",
+        "reason": "한국의 역사와 예술을 깊이 있게 이해하기 위해.",
         "lat": 37.5239,
         "lng": 126.9803
     },
     {
         "id": 10,
-        "name": "Bukhansan National Park",
-        "reason": "Hiking and enjoying nature views.",
+        "name": "북한산 국립공원",
+        "reason": "등산과 자연 경관을 즐기기 위해.",
         "lat": 37.6609,
         "lng": 126.9934
     }
