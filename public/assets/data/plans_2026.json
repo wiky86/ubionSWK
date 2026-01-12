@@ -2,15 +2,71 @@
     {
         "id": 1,
         "name": "Bukchon Hanok Village",
-        "reason": "Experience traditional Korean houses.",
-        "lat": 37.582604,
-        "lng": 126.985018
+        "reason": "Experience traditional Korean culture and architecture.",
+        "lat": 37.5826,
+        "lng": 126.9830
     },
     {
         "id": 2,
+        "name": "Changdeokgung Palace",
+        "reason": "Explore the Secret Garden and UNESCO World Heritage site.",
+        "lat": 37.5794,
+        "lng": 126.9910
+    },
+    {
+        "id": 3,
+        "name": "Dongdaemun Design Plaza (DDP)",
+        "reason": "Admire futuristic architecture and design exhibitions.",
+        "lat": 37.5665,
+        "lng": 127.0090
+    },
+    {
+        "id": 4,
         "name": "Lotte World Tower",
-        "reason": "Visit the highest observation deck.",
-        "lat": 37.512596,
-        "lng": 127.102522
+        "reason": "See the cityscape from Seoul Sky observation deck.",
+        "lat": 37.5126,
+        "lng": 127.1025
+    },
+    {
+        "id": 5,
+        "name": "Starfield COEX Mall",
+        "reason": "Visit the famous Starfield Library and shop.",
+        "lat": 37.5114,
+        "lng": 127.0596
+    },
+    {
+        "id": 6,
+        "name": "Insadong",
+        "reason": "Browse traditional crafts and enjoy tea houses.",
+        "lat": 37.5746,
+        "lng": 126.9850
+    },
+    {
+        "id": 7,
+        "name": "Myeongdong",
+        "reason": "Street food adventure and shopping spree.",
+        "lat": 37.5636,
+        "lng": 126.9842
+    },
+    {
+        "id": 8,
+        "name": "Yeouido Hangang Park",
+        "reason": "Picnic and cycling along the Han River.",
+        "lat": 37.5284,
+        "lng": 126.9328
+    },
+    {
+        "id": 9,
+        "name": "National Museum of Korea",
+        "reason": "Deep dive into Korean history and art.",
+        "lat": 37.5239,
+        "lng": 126.9803
+    },
+    {
+        "id": 10,
+        "name": "Bukhansan National Park",
+        "reason": "Hiking and enjoying nature views.",
+        "lat": 37.6609,
+        "lng": 126.9934
     }
 ]

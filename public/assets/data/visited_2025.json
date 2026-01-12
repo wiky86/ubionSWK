@@ -10,6 +10,24 @@
     },
     {
         "id": 2,
+        "name": "Seocho Culture & Art Park",
+        "date": "2025-04-05",
+        "description": "Relaxing walk through the tall Metasequoia paths.",
+        "lat": 37.4705,
+        "lng": 127.0366,
+        "image": "/assets/photos/seocho_park.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Yangjaecheon Cafe Street",
+        "date": "2025-04-05",
+        "description": "Enjoyed cherry blossoms and coffee by the stream.",
+        "lat": 37.4800,
+        "lng": 127.0450,
+        "image": "/assets/photos/yangjaecheon.jpg"
+    },
+    {
+        "id": 4,
         "name": "Gyeongbokgung Palace",
         "date": "2025-05-20",
         "description": "Wore Hanbok and took great photos.",

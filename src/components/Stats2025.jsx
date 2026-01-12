@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 const Stats2025 = () => {
     const [visited, setVisited] = useState([]);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
         fetch('/assets/data/visited_2025.json')
@@ -12,7 +13,7 @@ const Stats2025 = () => {
     }, []);
 
     return (
-        <section id="stats" className="py-20 px-4 bg-slate-800">
+        <section id="stats" className="py-20 px-4 bg-slate-800 relative">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold mb-12 text-center">2025 Highlights</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -25,7 +26,10 @@ const Stats2025 = () => {
                             viewport={{ once: true }}
                             className="bg-slate-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
                         >
-                            <div className="h-48 bg-slate-600 overflow-hidden">
+                            <div 
+                                className="h-48 bg-slate-600 overflow-hidden cursor-pointer"
+                                onClick={() => setSelectedImage(place.image)}
+                            >
                                 {/* Placeholder for image if not found, or actual image */}
                                 <img
                                     src={place.image}
@@ -43,6 +47,31 @@ const Stats2025 = () => {
                     ))}
                 </div>
             </div>
+
+            {/* Image Modal */}
+            {selectedImage && (
+                <div 
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <div className="relative max-w-4xl max-h-[90vh] w-full">
+                        <img 
+                            src={selectedImage} 
+                            alt="Full Screen" 
+                            className="w-full h-full object-contain max-h-[90vh] rounded-lg shadow-2xl"
+                        />
+                        <button 
+                            className="absolute top-4 right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl hover:bg-gray-200 transition-colors"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                setSelectedImage(null);
+                            }}
+                        >
+                            &times;
+                        </button>
+                    </div>
+                </div>
+            )}
         </section>
     );
 };
