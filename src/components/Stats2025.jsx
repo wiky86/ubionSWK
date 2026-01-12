@@ -15,7 +15,7 @@ const Stats2025 = () => {
     return (
         <section id="stats" className="py-20 px-4 bg-slate-800 relative">
             <div className="max-w-6xl mx-auto">
-                <h2 className="text-4xl font-bold mb-12 text-center">2025 Highlights</h2>
+                <h2 className="text-4xl font-bold mb-12 text-center">회장님 단독활동 (2025 Highlights)</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {visited.map((place, index) => (
                         <motion.div

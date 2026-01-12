@@ -1,36 +1,36 @@
 [
     {
         "id": 1,
-        "name": "N Seoul Tower",
+        "name": "N서울타워",
         "date": "2025-03-15",
-        "description": "Enjoyed the panoramic view of Seoul.",
+        "description": "서울의 파노라마 뷰를 즐겼습니다.",
         "lat": 37.551169,
         "lng": 126.988227,
         "image": "/assets/photos/nseoultower.jpg"
     },
     {
         "id": 2,
-        "name": "Seocho Culture & Art Park",
+        "name": "서초 문화예술공원",
         "date": "2025-04-05",
-        "description": "Relaxing walk through the tall Metasequoia paths.",
+        "description": "멋진 메타세콰이어 길을 걸으며 휴식.",
         "lat": 37.4705,
         "lng": 127.0366,
         "image": "/assets/photos/seocho_park.jpg"
     },
     {
         "id": 3,
-        "name": "Yangjaecheon Cafe Street",
+        "name": "양재천 카페거리",
         "date": "2025-04-05",
-        "description": "Enjoyed cherry blossoms and coffee by the stream.",
+        "description": "벚꽃 구경과 함께 카페에서 여유를 즐김.",
         "lat": 37.4800,
         "lng": 127.0450,
         "image": "/assets/photos/yangjaecheon.jpg"
     },
     {
         "id": 4,
-        "name": "Gyeongbokgung Palace",
+        "name": "경복궁",
         "date": "2025-05-20",
-        "description": "Wore Hanbok and took great photos.",
+        "description": "한복을 입고 멋진 사진을 남겼습니다.",
         "lat": 37.579617,
         "lng": 126.977041,
         "image": "/assets/photos/gyeongbokgung.jpg"

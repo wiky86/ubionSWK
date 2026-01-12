@@ -14,7 +14,7 @@ const Plan2026 = () => {
     return (
         <section className="py-20 px-4 bg-slate-800">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-4xl font-bold mb-12 text-center">2026 Goals</h2>
+                <h2 className="text-4xl font-bold mb-12 text-center">2026년 목표</h2>
                 <div className="space-y-6">
                     {plans.map((plan, index) => (
                         <motion.div
