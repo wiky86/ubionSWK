@@ -1,30 +1,30 @@
 [
     {
         "id": 1,
-        "name": "일출 감상 (포항 호미곶)",
-        "date": "2025-01-01",
-        "description": "새해 첫 일출을 보며 2025년의 힘찬 시작을 다짐했습니다.",
-        "lat": 36.0765,
-        "lng": 129.5686,
-        "image": "https://placehold.co/600x400?text=Sunrise+2025"
+        "name": "1월 - 활동 없음",
+        "date": "2025-01",
+        "description": "정기 모임 없음",
+        "lat": null,
+        "lng": null,
+        "image": "https://placehold.co/600x400?text=No+Activity"
     },
     {
         "id": 2,
-        "name": "겨울 제주도 여행",
-        "date": "2025-02-14",
-        "description": "동백꽃이 만발한 제주도에서 힐링의 시간을 가졌습니다.",
-        "lat": 33.3617,
-        "lng": 126.5292,
-        "image": "https://placehold.co/600x400?text=Jeju+Island"
+        "name": "2월 - 로드맵 구성",
+        "date": "2025-02",
+        "description": "장소: 구로구 유비온 디지털교육센터. 2025년 활동 계획 및 로드맵 수립.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "/assets/photos/2월.jpg"
     },
     {
         "id": 3,
-        "name": "N서울타워",
-        "date": "2025-03-15",
-        "description": "서울의 파노라마 뷰를 즐기며 봄을 맞이했습니다.",
-        "lat": 37.551169,
-        "lng": 126.988227,
-        "image": "https://placehold.co/600x400?text=N+Seoul+Tower"
+        "name": "3월 - 박물관 관람",
+        "date": "2025-03",
+        "description": "장소: 용산구 국립중앙박물관. 우리나라의 역사와 문화를 탐방.",
+        "lat": 37.5239,
+        "lng": 126.9803,
+        "image": "/assets/photos/3월.jpg"
     },
     {
         "id": 4,
@@ -36,7 +36,7 @@
         "image": "https://placehold.co/600x400?text=Seocho+Park"
     },
     {
-        "id": 5,
+        "id": 13,
         "name": "양재천 카페거리",
         "date": "2025-04-05",
         "description": "벚꽃 구경과 함께 카페에서 여유를 즐김.",
@@ -45,75 +45,75 @@
         "image": "https://placehold.co/600x400?text=Yangjaecheon"
     },
     {
+        "id": 5,
+        "name": "5월 - 국제정원박람회",
+        "date": "2025-05",
+        "description": "장소: 동작구 보라매공원. 아름다운 정원과 꽃 구경.",
+        "lat": 37.4925,
+        "lng": 126.9234,
+        "image": "/assets/photos/5월.jpg"
+    },
+    {
         "id": 6,
-        "name": "경복궁 야간개장",
-        "date": "2025-05-20",
-        "description": "한복을 입고 고즈넉한 궁궐의 밤을 거닐었습니다.",
-        "lat": 37.579617,
-        "lng": 126.977041,
-        "image": "https://placehold.co/600x400?text=Gyeongbokgung"
+        "name": "6월 - G타워 구경",
+        "date": "2025-06",
+        "description": "장소: 구로구 G타워. 넷마블 사옥 및 주변 탐방.",
+        "lat": 37.4833,
+        "lng": 126.8961,
+        "image": "/assets/photos/6월.jpg"
     },
     {
         "id": 7,
-        "name": "부산 해운대 요트투어",
-        "date": "2025-06-12",
-        "description": "시원한 바닷바람을 맞으며 이른 여름 휴가.",
-        "lat": 35.1587,
-        "lng": 129.1603,
-        "image": "https://placehold.co/600x400?text=Busan+Yacht"
+        "name": "7월 - 상반기 점검",
+        "date": "2025-07",
+        "description": "장소: 구로구 유비온 디지털교육센터. 상반기 활동 리뷰 및 하반기 계획.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "/assets/photos/7월.jpg"
     },
     {
         "id": 8,
-        "name": "강릉 커피거리",
-        "date": "2025-07-25",
-        "description": "탁 트인 동해바다를 보며 커피 한 잔의 여유.",
-        "lat": 37.7716,
-        "lng": 128.9485,
-        "image": "https://placehold.co/600x400?text=Gangneung+Coffee"
+        "name": "8월 - 문래동 나들이",
+        "date": "2025-08",
+        "description": "장소: 영등포구 문래동. 창작촌 골목 투어 및 맛집 탐방.",
+        "lat": 37.5156,
+        "lng": 126.8990,
+        "image": "/assets/photos/8월.jpg"
     },
     {
         "id": 9,
-        "name": "가평 글램핑",
-        "date": "2025-08-15",
-        "description": "자연 속에서 즐기는 바비큐 파티와 불멍.",
-        "lat": 37.8315,
-        "lng": 127.5097,
-        "image": "https://placehold.co/600x400?text=Glamping"
+        "name": "9월 - 미술관 관람",
+        "date": "2025-09",
+        "description": "장소: 중구 서울시립미술관. 현대 미술 전시 관람.",
+        "lat": 37.5641,
+        "lng": 126.9738,
+        "image": "/assets/photos/9월.jpg"
     },
     {
         "id": 10,
-        "name": "설악산 단풍놀이",
-        "date": "2025-09-30",
-        "description": "붉게 물든 설악산의 절경을 감상했습니다.",
-        "lat": 38.1190,
-        "lng": 128.4655,
-        "image": "https://placehold.co/600x400?text=Seoraksan"
+        "name": "10월 - 야외 방탈출",
+        "date": "2025-10",
+        "description": "장소: 중구 덕수궁. 고궁에서 즐기는 야외 방탈출 게임.",
+        "lat": 37.5658,
+        "lng": 126.9751,
+        "image": "/assets/photos/10월.jpg"
     },
     {
         "id": 11,
-        "name": "경주 핑크뮬리",
-        "date": "2025-10-20",
-        "description": "첨성대 주변 핑크뮬리 군락지에서 인생샷.",
-        "lat": 35.8347,
-        "lng": 129.2190,
-        "image": "https://placehold.co/600x400?text=Gyeongju"
+        "name": "11월 - 여의도 나들이",
+        "date": "2025-11",
+        "description": "장소: 영등포구 여의도 공원. 공원 산책 및 IFC몰 방문.",
+        "lat": 37.5246,
+        "lng": 126.9194,
+        "image": "/assets/photos/11월.jpg"
     },
     {
         "id": 12,
-        "name": "전주 한옥마을 먹방투어",
-        "date": "2025-11-15",
-        "description": "맛있는 비빔밥과 길거리 음식을 섭렵했습니다.",
-        "lat": 35.8147,
-        "lng": 127.1526,
-        "image": "https://placehold.co/600x400?text=Jeonju"
-    },
-    {
-        "id": 13,
-        "name": "송년회 및 스키장",
-        "date": "2025-12-24",
-        "description": "하얀 설원 위에서 2025년을 마무리했습니다.",
-        "lat": 37.6433,
-        "lng": 128.6706,
-        "image": "https://placehold.co/600x400?text=Ski+Resort"
+        "name": "12월 - 송년회",
+        "date": "2025-12",
+        "description": "장소: 구로구 유비온 디지털교육센터. 2025년 활동 마무리 및 회식.",
+        "lat": 37.4855,
+        "lng": 126.8982,
+        "image": "https://placehold.co/600x400?text=Dec+Party"
     }
 ]
