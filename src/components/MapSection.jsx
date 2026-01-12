@@ -41,7 +41,7 @@ const MapSection = () => {
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
 
-                        {visited.map(place => (
+                        {visited.filter(place => place.lat !== null && place.lng !== null).map(place => (
                             <Marker key={`visited-${place.id}`} position={[place.lat, place.lng]}>
                                 <Popup>
                                     <strong>{place.name}</strong><br />
@@ -50,7 +50,7 @@ const MapSection = () => {
                             </Marker>
                         ))}
 
-                        {plans.map(place => (
+                        {plans.filter(place => place.lat !== null && place.lng !== null).map(place => (
                             <Marker key={`plan-${place.id}`} position={[place.lat, place.lng]} opacity={0.6}>
                                 <Popup>
                                     <strong>{place.name}</strong><br />
